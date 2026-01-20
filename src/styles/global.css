@@ -1,0 +1,144 @@
+/* =========================
+   Color System (Dark First)
+   ========================= */
+
+:root {
+  --bg-primary: #0f1115;
+  --bg-secondary: #161a21;
+  --text-primary: #e6e8eb;
+  --text-secondary: #a9afbd;
+  --accent: #4da3ff;
+  --border-subtle: #252a34;
+}
+
+/* =========================
+   Base Reset
+   ========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* =========================
+   Layout
+   ========================= */
+
+main {
+  max-width: 760px;
+  padding: 3rem 1.25rem;
+  margin: 0 auto;
+}
+
+article {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* =========================
+   Typography
+   ========================= */
+
+h1,
+h2,
+h3 {
+  line-height: 1.3;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0.75rem 0 1.25rem;
+  color: var(--text-secondary);
+}
+
+/* =========================
+   Links
+   ========================= */
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Lists
+   ========================= */
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 1.5rem;
+}
+
+/* =========================
+   Utility
+   ========================= */
+
+small {
+  color: var(--text-secondary);
+}
+
+header {
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+nav {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+footer {
+  border-top: 1px solid var(--border-subtle);
+  padding: 2rem 1.25rem;
+  margin-top: 4rem;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
