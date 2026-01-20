@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("blog");
+
+const basicsPosts = posts.filter(
+  (post) => post.data.category === "Peptide Fundamentals"
+);
+---
+
+<BaseLayout>
+  <main>
+    <h1>Peptide Fundamentals</h1>
+
+    <p>
+      Foundational educational content explaining peptide terminology,
+      classifications, and commonly referenced concepts. Intended to provide
+      context and clarity without medical or usage guidance.
+    </p>
+
+    <ul>
+      {basicsPosts.map((post) => (
+        <li>
+          <h2>
+            <a href={`/blog/${post.slug}`}>{post.data.title}</a>
+          </h2>
+          <p>{post.data.description}</p>
+        </li>
+      ))}
+    </ul>
+  </main>
+</BaseLayout>
