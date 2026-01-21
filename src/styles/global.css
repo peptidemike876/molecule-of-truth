@@ -99,6 +99,29 @@ li {
 /* =========================
    Utility
    ========================= */
+   .site-footer {
+  border-top: 1px solid var(--border-subtle);
+  margin-top: 3rem;
+}
+
+.site-footer__inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  color: var(--text-secondary);
+}
+
+.site-footer__brand {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.site-footer__meta {
+  margin: 0;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
 .site-header {
   background: var(--bg-secondary);
   border-bottom: 1px solid var(--border-subtle);
