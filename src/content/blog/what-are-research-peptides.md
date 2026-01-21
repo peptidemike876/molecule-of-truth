@@ -62,6 +62,8 @@ This site focuses on explaining commonly referenced concepts and terminology rat
 
 ## Related Reading
 
-* What Does Peptide Reconstitution Mean?
-* What Supplies Are Commonly Used for Peptide Reconstitution?
-* Why Peptides Are Sold as “Research Use Only”
+- [What Does Peptide Reconstitution Mean?](/blog/what-does-peptide-reconstitution-mean)
+- [What Supplies Are Commonly Used for Peptide Reconstitution?](/blog/what-supplies-are-commonly-used-for-peptide-reconstitution)
+- [Why Peptides Are Sold as “Research Use Only”](/blog/why-are-peptides-sold-research-use-only)
+
+**Category:** [Peptide Fundamentals](/peptide-basics)
