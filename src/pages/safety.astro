@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("blog");
+
+const safetyPosts = posts.filter(
+  (post) => post.data.category === "Safety & Best Practices"
+);
+---
+
+<BaseLayout>
+  <main class="page">
+    <h1>Safety & Best Practices</h1>
+
+    <p>
+      Articles discussing general safety concepts, sterility awareness, storage
+      considerations, and responsible handling practices.
+    </p>
+
+    <ul>
+      {safetyPosts.map((post) => (
+        <li>
+          <h2>
+            <a href={`/blog/${post.slug}`}>{post.data.title}</a>
+          </h2>
+          <p>{post.data.description}</p>
+        </li>
+      ))}
+    </ul>
+  </main>
+</BaseLayout>

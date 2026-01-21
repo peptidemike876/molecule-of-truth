@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("blog");
+
+const supplyPosts = posts.filter(
+  (post) => post.data.category === "Supplies & Equipment"
+);
+---
+
+<BaseLayout>
+  <main class="page">
+    <h1>Supplies & Equipment</h1>
+
+    <p>
+      Educational resources covering commonly referenced supplies and equipment
+      discussed in peptide preparation and handling contexts.
+    </p>
+
+    <ul>
+      {supplyPosts.map((post) => (
+        <li>
+          <h2>
+            <a href={`/blog/${post.slug}`}>{post.data.title}</a>
+          </h2>
+          <p>{post.data.description}</p>
+        </li>
+      ))}
+    </ul>
+  </main>
+</BaseLayout>
