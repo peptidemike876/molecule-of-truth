@@ -9,6 +9,7 @@
   --text-secondary: #a9afbd;
   --accent: #4da3ff;
   --border-subtle: #252a34;
+  --font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* =========================
@@ -98,6 +99,17 @@ li {
 /* =========================
    Utility
    ========================= */
+.site-header {
+  padding: 1.5rem 0;
+}
+
+.site-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  color: inherit;
+}
 
 small {
   color: var(--text-secondary);

@@ -7,13 +7,21 @@ import Footer from "../components/Footer.astro";
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Molecule of Truth</title>
     <meta name="google-site-verification" content="orldM4qD3Wp08OzxUlqdjD7vxuSaTskQFEQ0AxoP5N0" />
   </head>
   <body>
-    <Header />
+    <header class="site-header">
+    <a href="/" class="site-title">Molecule of Truth</a>
+    </header>
     <slot />
     <Footer />
   </body>
