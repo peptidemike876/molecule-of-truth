@@ -10,11 +10,16 @@ date: "2026-01-20"
 
 ## Overview
 
-Many peptides available online are labeled **“for research use only.”** This designation often raises questions, especially for readers encountering peptides for the first time. What does the label actually mean? Why is it used so consistently? And how does it relate to regulation, safety, and intended context?
+<p class="lead">
+  Peptides are often described as “research use only,” a designation that can
+  be confusing for readers encountering peptide-related information outside of
+  formal scientific literature.
+</p>
 
 This article provides an educational explanation of the term *research use only*, why it exists, and how it fits into the broader landscape of scientific compounds. It is intended to clarify terminology rather than suggest application or use.
 
 ---
+
 
 ## What “Research Use Only” Means
 
@@ -29,6 +34,7 @@ In practical terms, this means the compound:
 The designation reflects **regulatory status**, not the intrinsic properties of the compound itself.
 
 ---
+
 
 ## Why This Label Is Commonly Applied to Peptides
 

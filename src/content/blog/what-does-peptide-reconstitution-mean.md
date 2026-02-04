@@ -73,6 +73,7 @@ Peptides labeled for research use only are typically discussed in educational or
 
 ## Related Reading
 
-* What Are Research Peptides? An Educational Overview
-* What Supplies Are Commonly Used for Peptide Reconstitution?
-* Sterility Basics for Peptide Handling
+- [What Are Research Peptides? An Educational Overview](/blog/what-are-research-peptides)
+- [What Supplies Are Commonly Used for Peptide Reconstitution?](/blog/what-supplies-are-commonly-used-for-peptide-reconstitution)
+
+**Category:** [Preparation & Reconstitution](/reconstitution)

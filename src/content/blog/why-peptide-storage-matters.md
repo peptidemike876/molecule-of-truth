@@ -80,3 +80,5 @@ This article focuses on explaining *why* storage considerations are discussed, n
 
 - [What Does 'Lyophilized' Mean in Peptides?](/blog/what-does-lyophilized-mean)
 - [What Does Peptide Reconstitution Mean?](/blog/what-does-peptide-reconstitution-mean)
+
+**Category:** [Safety & Best Practices](/safety)

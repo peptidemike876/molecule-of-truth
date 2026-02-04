@@ -4,7 +4,8 @@
 
 :root {
   --bg-primary: #0f1115;
-  --bg-secondary: #161a21;
+  --bg-secondary: rgba(255, 255, 255, 0.04);
+  --accent-muted: rgba(255, 255, 255, 0.25);
   --text-primary: #e6e8eb;
   --text-secondary: #a9afbd;
   --accent: #4da3ff;
@@ -34,6 +35,12 @@ body {
 /* =========================
    Layout
    ========================= */
+
+   .page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem;
+}
 
 main {
   max-width: 760px;
@@ -70,6 +77,17 @@ p {
   margin: 0.75rem 0 1.25rem;
   color: var(--text-secondary);
 }
+
+.lead {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin: 2.5rem 0 3rem;
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 1rem 1.25rem;
+}
+
+
 
 /* =========================
    Links
@@ -109,6 +127,7 @@ li {
   margin: 0 auto;
   padding: 2rem 1.25rem;
   color: var(--text-secondary);
+  text-align: center;
 }
 
 .site-footer__brand {
@@ -182,42 +201,42 @@ small {
   color: var(--text-secondary);
 }
 
-header {
+.callout {
+  margin: 3.5rem 0;
+  padding: 2rem 2.25rem;
   background: var(--bg-secondary);
-  border-bottom: 1px solid var(--border-subtle);
+  border-left: 4px solid var(--accent-muted);
 }
 
-nav {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 1rem 1.25rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.25rem;
-  margin: 0;
-  padding: 0;
-}
-
-nav a {
-  color: var(--text-primary);
-  font-weight: 500;
-}
-
-.logo {
-  font-weight: 700;
-}
-
-footer {
-  border-top: 1px solid var(--border-subtle);
-  padding: 2rem 1.25rem;
-  margin-top: 4rem;
-  text-align: center;
+.callout__label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--text-secondary);
-  font-size: 0.9rem;
+}
+
+.callout p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.divider svg {
+  width: 120px;
+  height: 12px;
+  opacity: 0.35;
+}
+
+.divider line,
+.divider circle {
+  stroke: var(--text-secondary);
 }

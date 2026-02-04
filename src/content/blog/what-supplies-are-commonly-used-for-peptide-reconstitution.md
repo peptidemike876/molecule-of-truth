@@ -90,6 +90,6 @@ Peptides labeled for research use only are commonly discussed within investigati
 
 ## Related Reading
 
-* What Does Peptide Reconstitution Mean?
-* Sterility Basics for Peptide Handling
-* How Improper Storage Affects Peptides
+- [What Does Peptide Reconstitution Mean?](/blog/what-does-peptide-reconstitution-mean)
+
+**Category:** [Supplies & Equipment](/supplies)

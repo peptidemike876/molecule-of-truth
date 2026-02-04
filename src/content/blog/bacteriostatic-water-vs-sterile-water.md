@@ -73,6 +73,7 @@ In educational discussions, readers often look for examples of the materials bei
 
 ## Related Reading
 
-* What Supplies Are Commonly Used for Peptide Reconstitution?
-* Why Peptide Storage Matters
-* Sterility Basics for Peptide Handling
+- [What Supplies Are Commonly Used for Peptide Reconstitution?](/blog/what-supplies-are-commonly-used-for-peptide-reconstitution)
+- [Why Peptide Storage Matters](/blog/why-peptide-storage-matters)
+
+**Category:** [Preparation & Reconstitution](/reconstitution)

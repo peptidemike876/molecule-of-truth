@@ -99,5 +99,7 @@ Clarity helps distinguish between learning about a topic and acting within a spe
 ## Related Reading
 
 - [What Does Peptide Reconstitution Mean?](/blog/what-does-peptide-reconstitution-mean)
-- [Why Sterility Is Emphasized in Peptide Discussions](why-sterility-is-emphasized)
-- [Why Peptide Storage Matters (Temperature, Light, Time)](why-peptide-storage-matters)
+- [Why Sterility Is Emphasized in Peptide Discussions](/blog/why-sterility-is-emphasized)
+- [Why Peptide Storage Matters (Temperature, Light, Time)](/blog/why-peptide-storage-matters)
+
+**Category:** [Preparation & Reconstitution](/reconstitution)
